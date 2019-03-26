@@ -5,7 +5,7 @@
 def ugly_number_finn(x):
 
     start=1
-    if abs(x) < 2147483648 :
+    if abs(x) < 2147483648 and x!=0 and x!=1 :
         while start >0 :
            if x % 2 ==0 :
                x = x//2
