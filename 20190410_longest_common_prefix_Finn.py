@@ -21,5 +21,5 @@ def finn_longest_common_prefix(string):
 if __name__ == '__main__':
     assert finn_longest_common_prefix(['flower','flow','flight'])=='fl','Fail'
     assert finn_longest_common_prefix(['dog','racecar','car'])=='','Fail'
-#
+
 
