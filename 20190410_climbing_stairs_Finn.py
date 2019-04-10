@@ -14,11 +14,6 @@ def climbing_stairs(num):
             stage = stage1 + stage2
             stage1=stage2
             stage2=stage
-
-
-
-
-
             num-=num
 
         return  stage
